@@ -1,0 +1,42 @@
+# Dependencias y cachés de gestores de paquetes
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Next.js y resultados generados
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+.cache/
+.turbo/
+.vercel/
+
+# Pruebas y reportes generados
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables privadas; el ejemplo puede versionarse sin secretos
+.env
+.env.*
+!.env.example
+
+# Archivos locales del sistema y editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
